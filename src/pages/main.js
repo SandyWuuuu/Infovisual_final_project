@@ -233,7 +233,7 @@ const ColorLegend = ({ colorScale, width = 300, height = 20, title = "HDI Value 
                     ))}
                 </linearGradient>
             </defs>
-            {/* Center the title and adjust y position to be more visually appropriate */}
+            {/* Center the title and adjust y position to be more visually appropriate.*/}
             <text x={width / 2} y={10} style={{ textAnchor: 'middle', fontSize: '12px', fontWeight: 'bold' }}>
                 {title}
             </text>
@@ -345,7 +345,8 @@ const HDI = () => {
             <Row>
                 <Col lg={12}>
                     <body className={styles.introStyle}>
-                        Welcome to our interactive dashboard on the Human Development Index (HDI). It's an composite index published by United Nation Human Development Program as a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living. Here, you can explore various metrics like Gross National Income, Life Expectancy, and Educational Attainment across countries to better understand global development trends. Dive into the data with our visual tools and detailed analyses.
+                        Welcome to our interactive dashboard on the Human Development Index (HDI). It's an composite index published by United Nation Human Development Program as a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living.
+                        Here, you can explore various metrics like Gross National Income, Life Expectancy, and Educational Attainment across countries to better understand global development trends. Dive into the data with our visual tools and detailed analyses.
                     </body>
                 </Col>
             </Row>
