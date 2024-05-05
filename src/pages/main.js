@@ -56,7 +56,7 @@ const LineChart = ({ data, selectedCountry }) => {
         console.log(data)
         svg.selectAll('*').remove();
 
-        const width = 500;
+        const width = 500; //test
         const height = 250;
         const margin = { top: 20, right: 30, bottom: 30, left: 60 };
         const xScale = scaleTime().domain([new Date(1990, 0, 1), new Date(2021, 0, 1)]).range([margin.left, width - margin.right]);
